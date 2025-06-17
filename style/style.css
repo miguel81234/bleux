@@ -423,30 +423,10 @@ footer {
     color: #e6007a;
 }
 
-@media (max-width: 900px) {
-    .hero {
-        flex-direction: column;
-        padding: 40px 0 20px 0;
-        height: 100px;
-    }
-    .hero-content {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .hero-image {
-        margin: 0 0 30px 0;
-    }
-    .features-content {
-        flex-direction: column;
-        gap: 30px;
-    }
-    .footer-content {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .pricing-cards {
-        flex-direction: column;
-        gap: 24px;
-        align-items: center;
-    }
+.pricing-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    align-items: stretch;
 }
